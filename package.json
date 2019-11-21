@@ -1,0 +1,26 @@
+{
+  "name": "tcs-001",
+  "version": "1.0.0",
+  "description": "Target Case Study 001",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiselblat/tcs-001.git"
+  },
+  "author": "Tom Christ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiselblat/tcs-001/issues"
+  },
+  "homepage": "https://github.com/kiselblat/tcs-001#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12",
+    "nodemon": "^2.0.0"
+  }
+}
