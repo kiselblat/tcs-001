@@ -46,4 +46,13 @@ module.exports = (app) => {
 
   });
 
+  // I couldn't get this route to work properly with Postman
+  // app.put('/products/:id', (request, response) => {
+  //   db.myRetailItem.findOneAndUpdate(
+  //     { myRetailId: request.params.id },
+  //     { price: request.body.price, currency: request.body.currency },
+  //     { new: true }
+  //   );
+  // })
+
 }
